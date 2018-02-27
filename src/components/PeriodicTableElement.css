@@ -19,3 +19,16 @@
 	display: block;
 	font-size: 0.8em;
 }
+
+.PeriodicTableElement--alkali-metal           { color: hsl(60, 50%, 80%); }
+.PeriodicTableElement--alkaline-earth-metal   { color: hsl(90, 50%, 80%); }
+.PeriodicTableElement--lanthanide             { color: hsl(120, 50%, 80%); }
+.PeriodicTableElement--actinide               { color: hsl(150, 50%, 80%); }
+.PeriodicTableElement--transition-metal       { color: hsl(180, 50%, 80%); }
+.PeriodicTableElement--post-transition-metal  { color: hsl(210, 50%, 80%); }
+.PeriodicTableElement--metalloid              { color: hsl(240, 50%, 80%); }
+.PeriodicTableElement--polyatomic-nonmetal    { color: hsl(270, 50%, 80%); }
+.PeriodicTableElement--diatomic-nonmetal      { color: hsl(300, 50%, 80%); }
+.PeriodicTableElement--noble-gas              { color: hsl(330, 50%, 80%); }
+
+.PeriodicTableElement--unknown                { color: hsl(200, 40%, 90%); }
