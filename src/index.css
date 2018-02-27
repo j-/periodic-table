@@ -5,3 +5,29 @@ body {
 	background-color: hsl(200, 30%, 20%);
 	color: hsl(200, 95%, 95%);
 }
+
+.color--alkali-metal           { color: hsl(60, 50%, 80%); }
+.color--alkaline-earth-metal   { color: hsl(90, 50%, 80%); }
+.color--lanthanide             { color: hsl(120, 50%, 80%); }
+.color--actinide               { color: hsl(150, 50%, 80%); }
+.color--transition-metal       { color: hsl(180, 50%, 80%); }
+.color--post-transition-metal  { color: hsl(210, 50%, 80%); }
+.color--metalloid              { color: hsl(240, 50%, 80%); }
+.color--polyatomic-nonmetal    { color: hsl(270, 50%, 80%); }
+.color--diatomic-nonmetal      { color: hsl(300, 50%, 80%); }
+.color--noble-gas              { color: hsl(330, 50%, 80%); }
+.color--unknown                { color: hsl(200, 40%, 90%); }
+
+.color--active                 { color: #000; }
+
+.color--alkali-metal.color--active           { background-color: hsl(60, 50%, 80%); }
+.color--alkaline-earth-metal.color--active   { background-color: hsl(90, 50%, 80%); }
+.color--lanthanide.color--active             { background-color: hsl(120, 50%, 80%); }
+.color--actinide.color--active               { background-color: hsl(150, 50%, 80%); }
+.color--transition-metal.color--active       { background-color: hsl(180, 50%, 80%); }
+.color--post-transition-metal.color--active  { background-color: hsl(210, 50%, 80%); }
+.color--metalloid.color--active              { background-color: hsl(240, 50%, 80%); }
+.color--polyatomic-nonmetal.color--active    { background-color: hsl(270, 50%, 80%); }
+.color--diatomic-nonmetal.color--active      { background-color: hsl(300, 50%, 80%); }
+.color--noble-gas.color--active              { background-color: hsl(330, 50%, 80%); }
+.color--unknown.color--active                { background-color: hsl(200, 40%, 90%); }
