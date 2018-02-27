@@ -5,6 +5,8 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	border: 1px solid hsl(200, 20%, 30%);
+	margin: 0 -1px -1px 0;
 }
 
 .PeriodicTableElement-number {
