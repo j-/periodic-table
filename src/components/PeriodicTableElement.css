@@ -43,6 +43,7 @@
 .PeriodicTableElement--polyatomic-nonmetal    { color: hsl(270, 50%, 80%); }
 .PeriodicTableElement--diatomic-nonmetal      { color: hsl(300, 50%, 80%); }
 .PeriodicTableElement--noble-gas              { color: hsl(330, 50%, 80%); }
+.PeriodicTableElement--unknown                { color: hsl(200, 40%, 90%); }
 
 .PeriodicTableElement--active                 { color: #000; }
 
@@ -56,5 +57,4 @@
 .PeriodicTableElement--polyatomic-nonmetal.PeriodicTableElement--active    { background-color: hsl(270, 50%, 80%); }
 .PeriodicTableElement--diatomic-nonmetal.PeriodicTableElement--active      { background-color: hsl(300, 50%, 80%); }
 .PeriodicTableElement--noble-gas.PeriodicTableElement--active              { background-color: hsl(330, 50%, 80%); }
-
-.PeriodicTableElement--unknown                { color: hsl(200, 40%, 90%); }
+.PeriodicTableElement--unknown.PeriodicTableElement--active                { background-color: hsl(200, 40%, 90%); }
