@@ -2,7 +2,7 @@ import { Reducer } from 'redux';
 import { isActionToggleActiveSubcategory } from './actions';
 
 export interface ReducerState {
-	activeSubcategories: string[];
+	activeSubcategories: (string | null)[];
 }
 
 const DEFAULT_STATE: ReducerState = {
@@ -44,6 +44,6 @@ const reducer: Reducer<ReducerState> = (state = DEFAULT_STATE, action) => {
 
 export default reducer;
 
-export const isSubcategoryActive = (state: ReducerState, subcategory: string): boolean => (
+export const isSubcategoryActive = (state: ReducerState, subcategory: string | null): boolean => (
 	state.activeSubcategories.indexOf(subcategory) >= 0
 );

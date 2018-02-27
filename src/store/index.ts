@@ -9,6 +9,6 @@ export default combineReducers<ReducerState>({
 	activeSubcategories: activeSubcategories.default,
 });
 
-export const isSubcategoryActive = (state: ReducerState, subcategory: string): boolean => (
+export const isSubcategoryActive = (state: ReducerState, subcategory: string | null): boolean => (
 	activeSubcategories.isSubcategoryActive(state.activeSubcategories, subcategory)
 );
