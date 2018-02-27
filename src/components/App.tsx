@@ -1,5 +1,5 @@
 import * as React from 'react';
-import PeriodicTable from './PeriodicTable';
+import PeriodicTable from '../containers/PeriodicTable';
 import SubcategoryList from './SubcategoryList';
 
 const App: React.StatelessComponent = () => (
