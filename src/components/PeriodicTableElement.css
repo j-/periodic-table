@@ -7,6 +7,13 @@
 	justify-content: space-around;
 	border: 1px solid hsl(200, 20%, 30%);
 	margin: 0 -1px -1px 0;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.PeriodicTableElement:hover {
+	border: 1px solid #fff;
+	z-index: 2;
 }
 
 .PeriodicTableElement-number {
