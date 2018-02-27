@@ -1,12 +1,11 @@
 import * as React from 'react';
 import * as classNames from 'classnames';
 import elements from '../data/elements';
-import PeriodicTableElement from './PeriodicTableElement';
+import PeriodicTableElement from '../containers/PeriodicTableElement';
 import './PeriodicTable.css';
 
 export interface PeriodicTableProps {
 	wide?: boolean;
-	activeSubcategory?: string;
 }
 
 const PeriodicTable: React.StatelessComponent<PeriodicTableProps> = (props) => {
@@ -21,7 +20,6 @@ const PeriodicTable: React.StatelessComponent<PeriodicTableProps> = (props) => {
 			symbol={element.symbol}
 			element={element.element}
 			subcategory={element.subcategory}
-			isActive={props.activeSubcategory === element.subcategory}
 		/>
 	));
 	return <div className={className}>{children}</div>;
