@@ -1,21 +1,25 @@
 .PeriodicTableElement {
 	position: relative;
 	text-align: center;
+	padding: 0.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
-.PeriodicTableElement > .PeriodicTableElement-number {
+.PeriodicTableElement-number {
 	font-size: 0.75em;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-.PeriodicTableElement > .PeriodicTableElement-symbol {
+.PeriodicTableElement-symbol {
 	display: block;
 	font-size: 2em;
 }
 
-.PeriodicTableElement > .PeriodicTableElement-long {
+.PeriodicTableElement-long {
 	display: block;
 	font-size: 0.8em;
 }
