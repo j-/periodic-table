@@ -11,7 +11,8 @@
     "boil": "20.28",
     "heatCapacity": "14.304",
     "electronegativity": "2.2",
-    "abundance": "1400"
+    "abundance": "1400",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 2,
@@ -25,7 +26,8 @@
     "boil": "4.22",
     "heatCapacity": "5.193",
     "electronegativity": "–",
-    "abundance": "0.008"
+    "abundance": "0.008",
+    "subcategory": "noble-gas"
   },
   {
     "number": 3,
@@ -39,7 +41,8 @@
     "boil": "1560",
     "heatCapacity": "3.582",
     "electronegativity": "0.98",
-    "abundance": "20"
+    "abundance": "20",
+    "subcategory": "alkali-metal"
   },
   {
     "number": 4,
@@ -53,7 +56,8 @@
     "boil": "2742",
     "heatCapacity": "1.825",
     "electronegativity": "1.57",
-    "abundance": "2.8"
+    "abundance": "2.8",
+    "subcategory": "alkaline-earth-metal"
   },
   {
     "number": 5,
@@ -67,7 +71,8 @@
     "boil": "4200",
     "heatCapacity": "1.026",
     "electronegativity": "2.04",
-    "abundance": "10"
+    "abundance": "10",
+    "subcategory": "metalloid"
   },
   {
     "number": 6,
@@ -81,7 +86,8 @@
     "boil": "4300",
     "heatCapacity": "0.709",
     "electronegativity": "2.55",
-    "abundance": "200"
+    "abundance": "200",
+    "subcategory": "polyatomic-nonmetal"
   },
   {
     "number": 7,
@@ -95,7 +101,8 @@
     "boil": "77.36",
     "heatCapacity": "1.04",
     "electronegativity": "3.04",
-    "abundance": "19"
+    "abundance": "19",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 8,
@@ -109,7 +116,8 @@
     "boil": "90.2",
     "heatCapacity": "0.918",
     "electronegativity": "3.44",
-    "abundance": "461000"
+    "abundance": "461000",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 9,
@@ -123,7 +131,8 @@
     "boil": "85.03",
     "heatCapacity": "0.824",
     "electronegativity": "3.98",
-    "abundance": "585"
+    "abundance": "585",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 10,
@@ -137,7 +146,8 @@
     "boil": "27.07",
     "heatCapacity": "1.03",
     "electronegativity": "–",
-    "abundance": "0.005"
+    "abundance": "0.005",
+    "subcategory": "noble-gas"
   },
   {
     "number": 11,
@@ -151,7 +161,8 @@
     "boil": "1156",
     "heatCapacity": "1.228",
     "electronegativity": "0.93",
-    "abundance": "23600"
+    "abundance": "23600",
+    "subcategory": "alkali-metal"
   },
   {
     "number": 12,
@@ -165,7 +176,8 @@
     "boil": "1363",
     "heatCapacity": "1.023",
     "electronegativity": "1.31",
-    "abundance": "23300"
+    "abundance": "23300",
+    "subcategory": "alkaline-earth-metal"
   },
   {
     "number": 13,
@@ -179,7 +191,8 @@
     "boil": "2792",
     "heatCapacity": "0.897",
     "electronegativity": "1.61",
-    "abundance": "82300"
+    "abundance": "82300",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 14,
@@ -193,7 +206,8 @@
     "boil": "3538",
     "heatCapacity": "0.705",
     "electronegativity": "1.9",
-    "abundance": "282000"
+    "abundance": "282000",
+    "subcategory": "metalloid"
   },
   {
     "number": 15,
@@ -207,7 +221,8 @@
     "boil": "550",
     "heatCapacity": "0.769",
     "electronegativity": "2.19",
-    "abundance": "1050"
+    "abundance": "1050",
+    "subcategory": "polyatomic-nonmetal"
   },
   {
     "number": 16,
@@ -221,7 +236,8 @@
     "boil": "717.87",
     "heatCapacity": "0.71",
     "electronegativity": "2.58",
-    "abundance": "350"
+    "abundance": "350",
+    "subcategory": "polyatomic-nonmetal"
   },
   {
     "number": 17,
@@ -235,7 +251,8 @@
     "boil": "239.11",
     "heatCapacity": "0.479",
     "electronegativity": "3.16",
-    "abundance": "145"
+    "abundance": "145",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 18,
@@ -249,7 +266,8 @@
     "boil": "87.3",
     "heatCapacity": "0.52",
     "electronegativity": "–",
-    "abundance": "3.5"
+    "abundance": "3.5",
+    "subcategory": "noble-gas"
   },
   {
     "number": 19,
@@ -263,7 +281,8 @@
     "boil": "1032",
     "heatCapacity": "0.757",
     "electronegativity": "0.82",
-    "abundance": "20900"
+    "abundance": "20900",
+    "subcategory": "alkali-metal"
   },
   {
     "number": 20,
@@ -277,7 +296,8 @@
     "boil": "1757",
     "heatCapacity": "0.647",
     "electronegativity": "1",
-    "abundance": "41500"
+    "abundance": "41500",
+    "subcategory": "alkaline-earth-metal"
   },
   {
     "number": 21,
@@ -291,7 +311,8 @@
     "boil": "3109",
     "heatCapacity": "0.568",
     "electronegativity": "1.36",
-    "abundance": "22"
+    "abundance": "22",
+    "subcategory": "transition-metal"
   },
   {
     "number": 22,
@@ -305,7 +326,8 @@
     "boil": "3560",
     "heatCapacity": "0.523",
     "electronegativity": "1.54",
-    "abundance": "5650"
+    "abundance": "5650",
+    "subcategory": "transition-metal"
   },
   {
     "number": 23,
@@ -319,7 +341,8 @@
     "boil": "3680",
     "heatCapacity": "0.489",
     "electronegativity": "1.63",
-    "abundance": "120"
+    "abundance": "120",
+    "subcategory": "transition-metal"
   },
   {
     "number": 24,
@@ -333,7 +356,8 @@
     "boil": "2944",
     "heatCapacity": "0.449",
     "electronegativity": "1.66",
-    "abundance": "102"
+    "abundance": "102",
+    "subcategory": "transition-metal"
   },
   {
     "number": 25,
@@ -347,7 +371,8 @@
     "boil": "2334",
     "heatCapacity": "0.479",
     "electronegativity": "1.55",
-    "abundance": "950"
+    "abundance": "950",
+    "subcategory": "transition-metal"
   },
   {
     "number": 26,
@@ -361,7 +386,8 @@
     "boil": "3134",
     "heatCapacity": "0.449",
     "electronegativity": "1.83",
-    "abundance": "56300"
+    "abundance": "56300",
+    "subcategory": "transition-metal"
   },
   {
     "number": 27,
@@ -375,7 +401,8 @@
     "boil": "3200",
     "heatCapacity": "0.421",
     "electronegativity": "1.88",
-    "abundance": "25"
+    "abundance": "25",
+    "subcategory": "transition-metal"
   },
   {
     "number": 28,
@@ -389,7 +416,8 @@
     "boil": "3186",
     "heatCapacity": "0.444",
     "electronegativity": "1.91",
-    "abundance": "84"
+    "abundance": "84",
+    "subcategory": "transition-metal"
   },
   {
     "number": 29,
@@ -403,7 +431,8 @@
     "boil": "2835",
     "heatCapacity": "0.385",
     "electronegativity": "1.9",
-    "abundance": "60"
+    "abundance": "60",
+    "subcategory": "transition-metal"
   },
   {
     "number": 30,
@@ -417,7 +446,8 @@
     "boil": "1180",
     "heatCapacity": "0.388",
     "electronegativity": "1.65",
-    "abundance": "70"
+    "abundance": "70",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 31,
@@ -431,7 +461,8 @@
     "boil": "2673",
     "heatCapacity": "0.371",
     "electronegativity": "1.81",
-    "abundance": "19"
+    "abundance": "19",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 32,
@@ -445,7 +476,8 @@
     "boil": "3106",
     "heatCapacity": "0.32",
     "electronegativity": "2.01",
-    "abundance": "1.5"
+    "abundance": "1.5",
+    "subcategory": "metalloid"
   },
   {
     "number": 33,
@@ -459,7 +491,8 @@
     "boil": "887",
     "heatCapacity": "0.329",
     "electronegativity": "2.18",
-    "abundance": "1.8"
+    "abundance": "1.8",
+    "subcategory": "metalloid"
   },
   {
     "number": 34,
@@ -473,7 +506,8 @@
     "boil": "958",
     "heatCapacity": "0.321",
     "electronegativity": "2.55",
-    "abundance": "0.05"
+    "abundance": "0.05",
+    "subcategory": "polyatomic-nonmetal"
   },
   {
     "number": 35,
@@ -487,7 +521,8 @@
     "boil": "332",
     "heatCapacity": "0.474",
     "electronegativity": "2.96",
-    "abundance": "2.4"
+    "abundance": "2.4",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 36,
@@ -501,7 +536,8 @@
     "boil": "119.93",
     "heatCapacity": "0.248",
     "electronegativity": "3",
-    "abundance": "1×10-4"
+    "abundance": "1×10-4",
+    "subcategory": "noble-gas"
   },
   {
     "number": 37,
@@ -515,7 +551,8 @@
     "boil": "961",
     "heatCapacity": "0.363",
     "electronegativity": "0.82",
-    "abundance": "90"
+    "abundance": "90",
+    "subcategory": "alkali-metal"
   },
   {
     "number": 38,
@@ -529,7 +566,8 @@
     "boil": "1655",
     "heatCapacity": "0.301",
     "electronegativity": "0.95",
-    "abundance": "370"
+    "abundance": "370",
+    "subcategory": "alkaline-earth-metal"
   },
   {
     "number": 39,
@@ -543,7 +581,8 @@
     "boil": "3609",
     "heatCapacity": "0.298",
     "electronegativity": "1.22",
-    "abundance": "33"
+    "abundance": "33",
+    "subcategory": "transition-metal"
   },
   {
     "number": 40,
@@ -557,7 +596,8 @@
     "boil": "4682",
     "heatCapacity": "0.278",
     "electronegativity": "1.33",
-    "abundance": "165"
+    "abundance": "165",
+    "subcategory": "transition-metal"
   },
   {
     "number": 41,
@@ -571,7 +611,8 @@
     "boil": "5017",
     "heatCapacity": "0.265",
     "electronegativity": "1.6",
-    "abundance": "20"
+    "abundance": "20",
+    "subcategory": "transition-metal"
   },
   {
     "number": 42,
@@ -585,7 +626,8 @@
     "boil": "4912",
     "heatCapacity": "0.251",
     "electronegativity": "2.16",
-    "abundance": "1.2"
+    "abundance": "1.2",
+    "subcategory": "transition-metal"
   },
   {
     "number": 43,
@@ -599,7 +641,8 @@
     "boil": "4538",
     "heatCapacity": "–",
     "electronegativity": "1.9",
-    "abundance": "~ 3×10-9[XI]"
+    "abundance": "~ 3×10-9[XI]",
+    "subcategory": "transition-metal"
   },
   {
     "number": 44,
@@ -613,7 +656,8 @@
     "boil": "4423",
     "heatCapacity": "0.238",
     "electronegativity": "2.2",
-    "abundance": "0.001"
+    "abundance": "0.001",
+    "subcategory": "transition-metal"
   },
   {
     "number": 45,
@@ -627,7 +671,8 @@
     "boil": "3968",
     "heatCapacity": "0.243",
     "electronegativity": "2.28",
-    "abundance": "0.001"
+    "abundance": "0.001",
+    "subcategory": "transition-metal"
   },
   {
     "number": 46,
@@ -641,7 +686,8 @@
     "boil": "3236",
     "heatCapacity": "0.244",
     "electronegativity": "2.2",
-    "abundance": "0.015"
+    "abundance": "0.015",
+    "subcategory": "transition-metal"
   },
   {
     "number": 47,
@@ -655,7 +701,8 @@
     "boil": "2435",
     "heatCapacity": "0.235",
     "electronegativity": "1.93",
-    "abundance": "0.075"
+    "abundance": "0.075",
+    "subcategory": "transition-metal"
   },
   {
     "number": 48,
@@ -669,7 +716,8 @@
     "boil": "1040",
     "heatCapacity": "0.232",
     "electronegativity": "1.69",
-    "abundance": "0.159"
+    "abundance": "0.159",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 49,
@@ -683,7 +731,8 @@
     "boil": "2345",
     "heatCapacity": "0.233",
     "electronegativity": "1.78",
-    "abundance": "0.25"
+    "abundance": "0.25",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 50,
@@ -697,7 +746,8 @@
     "boil": "2875",
     "heatCapacity": "0.228",
     "electronegativity": "1.96",
-    "abundance": "2.3"
+    "abundance": "2.3",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 51,
@@ -711,7 +761,8 @@
     "boil": "1860",
     "heatCapacity": "0.207",
     "electronegativity": "2.05",
-    "abundance": "0.2"
+    "abundance": "0.2",
+    "subcategory": "metalloid"
   },
   {
     "number": 52,
@@ -725,7 +776,8 @@
     "boil": "1261",
     "heatCapacity": "0.202",
     "electronegativity": "2.1",
-    "abundance": "0.001"
+    "abundance": "0.001",
+    "subcategory": "metalloid"
   },
   {
     "number": 53,
@@ -739,7 +791,8 @@
     "boil": "457.4",
     "heatCapacity": "0.214",
     "electronegativity": "2.66",
-    "abundance": "0.45"
+    "abundance": "0.45",
+    "subcategory": "diatomic-nonmetal"
   },
   {
     "number": 54,
@@ -753,7 +806,8 @@
     "boil": "165.03",
     "heatCapacity": "0.158",
     "electronegativity": "2.6",
-    "abundance": "3×10-5"
+    "abundance": "3×10-5",
+    "subcategory": "noble-gas"
   },
   {
     "number": 55,
@@ -767,7 +821,8 @@
     "boil": "944",
     "heatCapacity": "0.242",
     "electronegativity": "0.79",
-    "abundance": "3"
+    "abundance": "3",
+    "subcategory": "alkali-metal"
   },
   {
     "number": 56,
@@ -781,7 +836,8 @@
     "boil": "2170",
     "heatCapacity": "0.204",
     "electronegativity": "0.89",
-    "abundance": "425"
+    "abundance": "425",
+    "subcategory": "alkaline-earth-metal"
   },
   {
     "number": 57,
@@ -795,7 +851,8 @@
     "boil": "3737",
     "heatCapacity": "0.195",
     "electronegativity": "1.1",
-    "abundance": "39"
+    "abundance": "39",
+    "subcategory": "lanthanide"
   },
   {
     "number": 58,
@@ -809,7 +866,8 @@
     "boil": "3716",
     "heatCapacity": "0.192",
     "electronegativity": "1.12",
-    "abundance": "66.5"
+    "abundance": "66.5",
+    "subcategory": "lanthanide"
   },
   {
     "number": 59,
@@ -823,7 +881,8 @@
     "boil": "3793",
     "heatCapacity": "0.193",
     "electronegativity": "1.13",
-    "abundance": "9.2"
+    "abundance": "9.2",
+    "subcategory": "lanthanide"
   },
   {
     "number": 60,
@@ -837,7 +896,8 @@
     "boil": "3347",
     "heatCapacity": "0.19",
     "electronegativity": "1.14",
-    "abundance": "41.5"
+    "abundance": "41.5",
+    "subcategory": "lanthanide"
   },
   {
     "number": 61,
@@ -851,7 +911,8 @@
     "boil": "3273",
     "heatCapacity": "–",
     "electronegativity": "1.13",
-    "abundance": "2×10-19[XI]"
+    "abundance": "2×10-19[XI]",
+    "subcategory": "lanthanide"
   },
   {
     "number": 62,
@@ -865,7 +926,8 @@
     "boil": "2067",
     "heatCapacity": "0.197",
     "electronegativity": "1.17",
-    "abundance": "7.05"
+    "abundance": "7.05",
+    "subcategory": "lanthanide"
   },
   {
     "number": 63,
@@ -879,7 +941,8 @@
     "boil": "1802",
     "heatCapacity": "0.182",
     "electronegativity": "1.2",
-    "abundance": "2"
+    "abundance": "2",
+    "subcategory": "lanthanide"
   },
   {
     "number": 64,
@@ -893,7 +956,8 @@
     "boil": "3546",
     "heatCapacity": "0.236",
     "electronegativity": "1.2",
-    "abundance": "6.2"
+    "abundance": "6.2",
+    "subcategory": "lanthanide"
   },
   {
     "number": 65,
@@ -907,7 +971,8 @@
     "boil": "3503",
     "heatCapacity": "0.182",
     "electronegativity": "1.2",
-    "abundance": "1.2"
+    "abundance": "1.2",
+    "subcategory": "lanthanide"
   },
   {
     "number": 66,
@@ -921,7 +986,8 @@
     "boil": "2840",
     "heatCapacity": "0.17",
     "electronegativity": "1.22",
-    "abundance": "5.2"
+    "abundance": "5.2",
+    "subcategory": "lanthanide"
   },
   {
     "number": 67,
@@ -935,7 +1001,8 @@
     "boil": "2993",
     "heatCapacity": "0.165",
     "electronegativity": "1.23",
-    "abundance": "1.3"
+    "abundance": "1.3",
+    "subcategory": "lanthanide"
   },
   {
     "number": 68,
@@ -949,7 +1016,8 @@
     "boil": "3141",
     "heatCapacity": "0.168",
     "electronegativity": "1.24",
-    "abundance": "3.5"
+    "abundance": "3.5",
+    "subcategory": "lanthanide"
   },
   {
     "number": 69,
@@ -963,7 +1031,8 @@
     "boil": "2223",
     "heatCapacity": "0.16",
     "electronegativity": "1.25",
-    "abundance": "0.52"
+    "abundance": "0.52",
+    "subcategory": "lanthanide"
   },
   {
     "number": 70,
@@ -977,7 +1046,8 @@
     "boil": "1469",
     "heatCapacity": "0.155",
     "electronegativity": "1.1",
-    "abundance": "3.2"
+    "abundance": "3.2",
+    "subcategory": "lanthanide"
   },
   {
     "number": 71,
@@ -991,7 +1061,8 @@
     "boil": "3675",
     "heatCapacity": "0.154",
     "electronegativity": "1.27",
-    "abundance": "0.8"
+    "abundance": "0.8",
+    "subcategory": "lanthanide"
   },
   {
     "number": 72,
@@ -1005,7 +1076,8 @@
     "boil": "4876",
     "heatCapacity": "0.144",
     "electronegativity": "1.3",
-    "abundance": "3"
+    "abundance": "3",
+    "subcategory": "transition-metal"
   },
   {
     "number": 73,
@@ -1019,7 +1091,8 @@
     "boil": "5731",
     "heatCapacity": "0.14",
     "electronegativity": "1.5",
-    "abundance": "2"
+    "abundance": "2",
+    "subcategory": "transition-metal"
   },
   {
     "number": 74,
@@ -1033,7 +1106,8 @@
     "boil": "5828",
     "heatCapacity": "0.132",
     "electronegativity": "2.36",
-    "abundance": "1.3"
+    "abundance": "1.3",
+    "subcategory": "transition-metal"
   },
   {
     "number": 75,
@@ -1047,7 +1121,8 @@
     "boil": "5869",
     "heatCapacity": "0.137",
     "electronegativity": "1.9",
-    "abundance": "7×10-4"
+    "abundance": "7×10-4",
+    "subcategory": "transition-metal"
   },
   {
     "number": 76,
@@ -1061,7 +1136,8 @@
     "boil": "5285",
     "heatCapacity": "0.13",
     "electronegativity": "2.2",
-    "abundance": "0.002"
+    "abundance": "0.002",
+    "subcategory": "transition-metal"
   },
   {
     "number": 77,
@@ -1075,7 +1151,8 @@
     "boil": "4701",
     "heatCapacity": "0.131",
     "electronegativity": "2.2",
-    "abundance": "0.001"
+    "abundance": "0.001",
+    "subcategory": "transition-metal"
   },
   {
     "number": 78,
@@ -1089,7 +1166,8 @@
     "boil": "4098",
     "heatCapacity": "0.133",
     "electronegativity": "2.28",
-    "abundance": "0.005"
+    "abundance": "0.005",
+    "subcategory": "transition-metal"
   },
   {
     "number": 79,
@@ -1103,7 +1181,8 @@
     "boil": "3129",
     "heatCapacity": "0.129",
     "electronegativity": "2.54",
-    "abundance": "0.004"
+    "abundance": "0.004",
+    "subcategory": "transition-metal"
   },
   {
     "number": 80,
@@ -1117,7 +1196,8 @@
     "boil": "629.88",
     "heatCapacity": "0.14",
     "electronegativity": "2",
-    "abundance": "0.085"
+    "abundance": "0.085",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 81,
@@ -1131,7 +1211,8 @@
     "boil": "1746",
     "heatCapacity": "0.129",
     "electronegativity": "1.62",
-    "abundance": "0.85"
+    "abundance": "0.85",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 82,
@@ -1145,7 +1226,8 @@
     "boil": "2022",
     "heatCapacity": "0.129",
     "electronegativity": "1.87",
-    "abundance": "14"
+    "abundance": "14",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 83,
@@ -1159,7 +1241,8 @@
     "boil": "1837",
     "heatCapacity": "0.122",
     "electronegativity": "2.02",
-    "abundance": "0.009"
+    "abundance": "0.009",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 84,
@@ -1173,7 +1256,8 @@
     "boil": "1235",
     "heatCapacity": "–",
     "electronegativity": "2",
-    "abundance": "2×10-10[XI]"
+    "abundance": "2×10-10[XI]",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 85,
@@ -1187,7 +1271,8 @@
     "boil": "610",
     "heatCapacity": "–",
     "electronegativity": "2.2",
-    "abundance": "3×10-20[XI]"
+    "abundance": "3×10-20[XI]",
+    "subcategory": "metalloid"
   },
   {
     "number": 86,
@@ -1201,7 +1286,8 @@
     "boil": "211.3",
     "heatCapacity": "0.094",
     "electronegativity": "2.2",
-    "abundance": "4×10-13[XI]"
+    "abundance": "4×10-13[XI]",
+    "subcategory": "noble-gas"
   },
   {
     "number": 87,
@@ -1215,7 +1301,8 @@
     "boil": "950",
     "heatCapacity": "–",
     "electronegativity": "0.7",
-    "abundance": "~ 1×10-18[XI]"
+    "abundance": "~ 1×10-18[XI]",
+    "subcategory": "alkali-metal"
   },
   {
     "number": 88,
@@ -1229,7 +1316,8 @@
     "boil": "2010",
     "heatCapacity": "0.094",
     "electronegativity": "0.9",
-    "abundance": "9×10-7[XI]"
+    "abundance": "9×10-7[XI]",
+    "subcategory": "alkaline-earth-metal"
   },
   {
     "number": 89,
@@ -1243,7 +1331,8 @@
     "boil": "3471",
     "heatCapacity": "0.12",
     "electronegativity": "1.1",
-    "abundance": "5.5×10-10[XI]"
+    "abundance": "5.5×10-10[XI]",
+    "subcategory": "actinide"
   },
   {
     "number": 90,
@@ -1257,7 +1346,8 @@
     "boil": "5061",
     "heatCapacity": "0.113",
     "electronegativity": "1.3",
-    "abundance": "9.6"
+    "abundance": "9.6",
+    "subcategory": "actinide"
   },
   {
     "number": 91,
@@ -1271,7 +1361,8 @@
     "boil": "4300",
     "heatCapacity": "–",
     "electronegativity": "1.5",
-    "abundance": "1.4×10-6[XI]"
+    "abundance": "1.4×10-6[XI]",
+    "subcategory": "actinide"
   },
   {
     "number": 92,
@@ -1285,7 +1376,8 @@
     "boil": "4404",
     "heatCapacity": "0.116",
     "electronegativity": "1.38",
-    "abundance": "2.7"
+    "abundance": "2.7",
+    "subcategory": "actinide"
   },
   {
     "number": 93,
@@ -1299,7 +1391,8 @@
     "boil": "4273",
     "heatCapacity": "–",
     "electronegativity": "1.36",
-    "abundance": "= 3×10-12[XI]"
+    "abundance": "= 3×10-12[XI]",
+    "subcategory": "actinide"
   },
   {
     "number": 94,
@@ -1313,7 +1406,8 @@
     "boil": "3501",
     "heatCapacity": "–",
     "electronegativity": "1.28",
-    "abundance": "= 3×10-11[XI]"
+    "abundance": "= 3×10-11[XI]",
+    "subcategory": "actinide"
   },
   {
     "number": 95,
@@ -1327,7 +1421,8 @@
     "boil": "2880",
     "heatCapacity": "–",
     "electronegativity": "1.13",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 96,
@@ -1341,7 +1436,8 @@
     "boil": "3383",
     "heatCapacity": "–",
     "electronegativity": "1.28",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 97,
@@ -1355,7 +1451,8 @@
     "boil": "2900",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 98,
@@ -1369,7 +1466,8 @@
     "boil": "(1743)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 99,
@@ -1383,7 +1481,8 @@
     "boil": "(1269)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 100,
@@ -1397,7 +1496,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 101,
@@ -1411,7 +1511,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 102,
@@ -1425,7 +1526,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 103,
@@ -1439,7 +1541,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "1.3",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "actinide"
   },
   {
     "number": 104,
@@ -1453,7 +1556,8 @@
     "boil": "(5800)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "transition-metal"
   },
   {
     "number": 105,
@@ -1467,7 +1571,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "transition-metal"
   },
   {
     "number": 106,
@@ -1481,7 +1586,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "transition-metal"
   },
   {
     "number": 107,
@@ -1495,7 +1601,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "transition-metal"
   },
   {
     "number": 108,
@@ -1509,7 +1616,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "transition-metal"
   },
   {
     "number": 109,
@@ -1523,7 +1631,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 110,
@@ -1537,7 +1646,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 111,
@@ -1551,7 +1661,8 @@
     "boil": "–",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 112,
@@ -1565,7 +1676,8 @@
     "boil": "~357[XIV]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": "post-transition-metal"
   },
   {
     "number": 113,
@@ -1579,7 +1691,8 @@
     "boil": "(1400)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 114,
@@ -1593,7 +1706,8 @@
     "boil": "~210",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 115,
@@ -1607,7 +1721,8 @@
     "boil": "(1400)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 116,
@@ -1621,7 +1736,8 @@
     "boil": "(1085)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 117,
@@ -1635,7 +1751,8 @@
     "boil": "(883)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   },
   {
     "number": 118,
@@ -1649,6 +1766,7 @@
     "boil": "(350)[XIII]",
     "heatCapacity": "–",
     "electronegativity": "–",
-    "abundance": "0[XII]"
+    "abundance": "0[XII]",
+    "subcategory": null
   }
 ]

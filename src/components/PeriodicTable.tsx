@@ -19,6 +19,7 @@ const PeriodicTable: React.StatelessComponent<PeriodicTableProps> = (props) => {
 			number={element.number}
 			symbol={element.symbol}
 			element={element.element}
+			subcategory={element.subcategory}
 		/>
 	));
 	return <div className={className}>{children}</div>;

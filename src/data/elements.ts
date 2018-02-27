@@ -11,6 +11,7 @@ interface Element {
 	heatCapacity: string;
 	electronegativity: string;
 	abundance: string;
+	subcategory: string;
 }
 
 const data: Element[] = require('./elements.json');
