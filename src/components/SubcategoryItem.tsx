@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as classNames from 'classnames';
 import { getSubcategoryClassName, getActiveClassName } from '../class-names';
+import './SubcategoryItem.css';
 
 export interface SubcategoryItemProps {
 	isActive: boolean;
