@@ -6,6 +6,7 @@ import './PeriodicTable.css';
 
 export interface PeriodicTableProps {
 	wide?: boolean;
+	activeSubcategory?: string;
 }
 
 const PeriodicTable: React.StatelessComponent<PeriodicTableProps> = (props) => {
@@ -20,6 +21,7 @@ const PeriodicTable: React.StatelessComponent<PeriodicTableProps> = (props) => {
 			symbol={element.symbol}
 			element={element.element}
 			subcategory={element.subcategory}
+			isActive={props.activeSubcategory === element.subcategory}
 		/>
 	));
 	return <div className={className}>{children}</div>;

@@ -7,6 +7,7 @@ export interface PeriodicTableElementProps {
 	symbol: string;
 	element: string;
 	subcategory: string;
+	isActive: boolean;
 }
 
 const PeriodicTableElement: React.StatelessComponent<PeriodicTableElementProps> = (props) => (
@@ -23,6 +24,8 @@ const PeriodicTableElement: React.StatelessComponent<PeriodicTableElementProps> 
 			'PeriodicTableElement--diatomic-nonmetal':     props.subcategory === 'diatomic-nonmetal',
 			'PeriodicTableElement--noble-gas':             props.subcategory === 'noble-gas',
 			'PeriodicTableElement--unknown':               props.subcategory === null,
+
+			'PeriodicTableElement--active':                props.isActive,
 		})}
 		data-atomic-number={props.number}
 	>
