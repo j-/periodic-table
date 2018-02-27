@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PeriodicTable from './PeriodicTable';
 
-const App: React.StatelessComponent<{}> = () => (
+const App: React.StatelessComponent = () => (
 	<div className="App">
 		<PeriodicTable />
 	</div>
