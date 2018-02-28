@@ -32,3 +32,9 @@
 	display: block;
 	font-size: 0.8em;
 }
+
+.PeriodicTableElement.PeriodicTableElement--selected,
+.PeriodicTableElement.PeriodicTableElement--selected.color--highlighted {
+	background-color: #fff;
+	color: #222;
+}

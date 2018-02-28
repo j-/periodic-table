@@ -9,6 +9,8 @@ export interface PeriodicTableElementProps {
 	element: string;
 	subcategory: string;
 	isHighlighted: boolean;
+	isSelected: boolean;
+	selectElement: () => void;
 }
 
 const PeriodicTableElement: React.StatelessComponent<PeriodicTableElementProps> = (props) => (
@@ -17,8 +19,10 @@ const PeriodicTableElement: React.StatelessComponent<PeriodicTableElementProps> 
 			'PeriodicTableElement',
 			getSubcategoryClassName(props.subcategory),
 			getHighlightedClassName(props.isHighlighted),
+			{ 'PeriodicTableElement--selected': props.isSelected },
 		)}
 		data-atomic-number={props.number}
+		onClick={props.selectElement}
 	>
 		<span className="PeriodicTableElement-number">{props.number}</span>
 		<span className="PeriodicTableElement-symbol">{props.symbol}</span>
