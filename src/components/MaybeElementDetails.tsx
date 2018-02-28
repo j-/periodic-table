@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ElementDetails from './ElementDetails';
+import ElementDetails from '../containers/ElementDetails';
 import elements from '../data/elements';
 
 export interface MaybeElementDetailsProps {

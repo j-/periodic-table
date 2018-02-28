@@ -1,5 +1,6 @@
 import { Reducer } from 'redux';
 import { isActionSelectElement } from './actions';
+import { isActionClearSelectedElement } from './action-clear-selected-element';
 
 export interface ReducerState {
 	selectedAtomicNumber: number | null;
@@ -14,6 +15,13 @@ const reducer: Reducer<ReducerState> = (state = DEFAULT_STATE, action) => {
 		return {
 			...state,
 			selectedAtomicNumber: action.data.atomicNumber,
+		};
+	}
+
+	if (isActionClearSelectedElement(action)) {
+		return {
+			...state,
+			selectedAtomicNumber: null,
 		};
 	}
 

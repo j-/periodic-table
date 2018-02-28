@@ -3,11 +3,15 @@ import { Element } from '../data/elements';
 import './ElementDetails.css';
 
 export interface ElementDetailsProps extends Element {
-
+	clearSelected: () => void;
 }
 
 const ElementDetails: React.StatelessComponent<ElementDetailsProps> = (props) => (
 	<div className="ElementDetails">
+		<button className="ElementDetails-close" type="button" onClick={props.clearSelected}>
+			&times;
+		</button>
+
 		<h1>{props.element}</h1>
 
 		<dl>
