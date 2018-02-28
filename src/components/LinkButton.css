@@ -1,0 +1,21 @@
+.LinkButton {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+	color: #ddd;
+	border: none;
+	background: transparent;
+	font: inherit;
+	align-items: normal;
+	block-size: auto;
+	box-sizing: content-box;
+	display: inline;
+	inline-size: auto;
+	padding: 0;
+	text-align: start;
+}
+
+.LinkButton:hover {
+	text-decoration: underline;
+	color: #fff;
+}

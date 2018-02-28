@@ -46,9 +46,9 @@ const reducer: Reducer<ReducerState> = (state = DEFAULT_STATE, action) => {
 	}
 
 	if (isActionHighlightAllSubcategories(action)) {
-		const categoriesMap = {};
-		elements.forEach((element) => categoriesMap[element.subcategory] = true);
-		return { ...state, highlightedSubcategories: Object.keys(categoriesMap) };
+		const subcategoriesMap = new Map();
+		elements.forEach((element) => subcategoriesMap.set(element.subcategory, true));
+		return { ...state, highlightedSubcategories: Array.from(subcategoriesMap.keys()) };
 	}
 
 	if (isActionHighlightNoSubcategories(action)) {
