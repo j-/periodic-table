@@ -1,7 +1,7 @@
 import { connect, Dispatch } from 'react-redux';
 import SubcategoryItem from '../components/SubcategoryItem';
 import { ReducerState, isSubcategoryHighlighted } from '../store';
-import { ActionToggleHighlightedSubcategory, toggleHighlightedSubcategory } from 'src/store/actions';
+import { ActionToggleHighlightedSubcategory, toggleHighlightedSubcategory } from '../store/actions';
 
 interface StateProps {
 	isHighlighted: boolean;
