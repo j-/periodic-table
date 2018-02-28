@@ -1,5 +1,11 @@
 import { Reducer } from 'redux';
-import { isActionToggleHighlightedSubcategory } from './actions';
+import elements from '../data/elements';
+
+import {
+	isActionToggleHighlightedSubcategory,
+	isActionHighlightAllSubcategories,
+	isActionHighlightNoSubcategories,
+} from './actions';
 
 export interface ReducerState {
 	highlightedSubcategories: (string | null)[];
@@ -37,6 +43,16 @@ const reducer: Reducer<ReducerState> = (state = DEFAULT_STATE, action) => {
 		}
 
 		return { ...state, highlightedSubcategories };
+	}
+
+	if (isActionHighlightAllSubcategories(action)) {
+		const categoriesMap = {};
+		elements.forEach((element) => categoriesMap[element.subcategory] = true);
+		return { ...state, highlightedSubcategories: Object.keys(categoriesMap) };
+	}
+
+	if (isActionHighlightNoSubcategories(action)) {
+		return { ...state, highlightedSubcategories: [] };
 	}
 
 	return state;
