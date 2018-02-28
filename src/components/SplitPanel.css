@@ -1,0 +1,15 @@
+.SplitPanel {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.SplitPanel-left {
+	flex: 1;
+	overflow: auto;
+}
+
+.SplitPanel-right {
+	width: 20em;
+	background-color: hsl(200, 20%, 30%);
+}

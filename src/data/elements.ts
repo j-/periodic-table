@@ -1,4 +1,4 @@
-interface Element {
+export interface Element {
 	number: number;
 	symbol: string;
 	element: string;

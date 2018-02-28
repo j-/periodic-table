@@ -23,6 +23,10 @@ export const isWide = (state: ReducerState): boolean => (
 	appearance.isWide(state.appearance)
 );
 
+export const getSelectedElementNumber = (state: ReducerState): number | null => (
+	selected.getSelectedElementNumber(state.selected)
+);
+
 export const isElementSelected = (state: ReducerState, atomicNumber: number): boolean => (
 	selected.isElementSelected(state.selected, atomicNumber)
 );

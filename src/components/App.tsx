@@ -1,10 +1,11 @@
 import * as React from 'react';
-import PeriodicTable from '../containers/PeriodicTable';
+import SplitPanel from '../containers/SplitPanel';
 import SubcategoryList from '../containers/SubcategoryList';
+import './App.css';
 
 const App: React.StatelessComponent = () => (
 	<div className="App">
-		<PeriodicTable />
+		<SplitPanel />
 
 		<br />
 		<br />

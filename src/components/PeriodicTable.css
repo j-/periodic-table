@@ -1,6 +1,7 @@
 .PeriodicTable {
 	display: grid;
 	font-family: Arial, sans-serif;
+	margin: 0 1px 1px 0;
 }
 
 /* Narrow layout */

@@ -22,10 +22,14 @@ const reducer: Reducer<ReducerState> = (state = DEFAULT_STATE, action) => {
 
 export default reducer;
 
+export const getSelectedElementNumber = (state: ReducerState): number | null => (
+	state.selectedAtomicNumber
+);
+
 export const isElementSelected = (state: ReducerState, atomicNumber: number): boolean => (
-	atomicNumber === state.selectedAtomicNumber
+	getSelectedElementNumber(state) === atomicNumber
 );
 
 export const isAnyElementSelected = (state: ReducerState): boolean => (
-	state.selectedAtomicNumber === null
+	getSelectedElementNumber(state) !== null
 );
