@@ -15,8 +15,8 @@ export const getSubcategoryClassName = (subcategory: string | null) => {
 	}
 };
 
-export const getActiveClassName = (isActive: boolean) => {
-	return isActive ?
-		'color--active' :
+export const getHighlightedClassName = (isHighlighted: boolean) => {
+	return isHighlighted ?
+		'color--highlighted' :
 		'';
 };

@@ -1,10 +1,10 @@
 import { connect, Dispatch } from 'react-redux';
 import SubcategoryItem from '../components/SubcategoryItem';
-import { ReducerState, isSubcategoryActive } from '../store';
-import { ActionToggleActiveSubcategory, toggleActiveSubcategory } from 'src/store/actions';
+import { ReducerState, isSubcategoryHighlighted } from '../store';
+import { ActionToggleHighlightedSubcategory, toggleHighlightedSubcategory } from 'src/store/actions';
 
 interface StateProps {
-	isActive: boolean;
+	isHighlighted: boolean;
 }
 
 interface DispatchProps {
@@ -16,11 +16,12 @@ interface OwnProps {
 }
 
 const mapStateToProps = (state: ReducerState, props: OwnProps): StateProps => ({
-	isActive: isSubcategoryActive(state, props.subcategory),
+	isHighlighted: isSubcategoryHighlighted(state, props.subcategory),
 });
 
-const mapDispatchToProps = (dispatch: Dispatch<ActionToggleActiveSubcategory>, props: OwnProps): DispatchProps => ({
-	onToggle: () => dispatch(toggleActiveSubcategory(props.subcategory)),
+const mapDispatchToProps =
+(dispatch: Dispatch<ActionToggleHighlightedSubcategory>, props: OwnProps): DispatchProps => ({
+	onToggle: () => dispatch(toggleHighlightedSubcategory(props.subcategory)),
 });
 
 export default connect(

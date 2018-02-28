@@ -1,24 +1,24 @@
 import * as React from 'react';
 import * as classNames from 'classnames';
-import { getSubcategoryClassName, getActiveClassName } from '../class-names';
+import { getSubcategoryClassName, getHighlightedClassName } from '../class-names';
 import './SubcategoryItem.css';
 
 export interface SubcategoryItemProps {
-	isActive: boolean;
+	isHighlighted: boolean;
 	subcategory: string | null;
 	onToggle: () => void;
 }
 
 const SubcategoryItem: React.StatelessComponent<SubcategoryItemProps> =
-({ isActive, children, onToggle, subcategory }) => (
+({ isHighlighted, children, onToggle, subcategory }) => (
 	<label
 		className={classNames(
 			'SubcategoryItem',
 			getSubcategoryClassName(subcategory),
-			getActiveClassName(isActive),
+			getHighlightedClassName(isHighlighted),
 		)}
 	>
-		<input type="checkbox" checked={isActive} onChange={() => onToggle()} />
+		<input type="checkbox" checked={isHighlighted} onChange={() => onToggle()} />
 		<span className="SubcategoryItem-label">{children}</span>
 	</label>
 );

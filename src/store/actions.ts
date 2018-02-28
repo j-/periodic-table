@@ -1,23 +1,24 @@
 import { Action, ActionCreator } from 'redux';
 
-export interface ActionToggleActiveSubcategory extends Action {
-	type: 'ToggleActiveSubcategory';
+export interface ActionToggleHighlightedSubcategory extends Action {
+	type: 'ToggleHighlightedSubcategory';
 	data: {
 		subcategory: string;
-		active?: boolean;
+		highlighted?: boolean;
 	};
 }
 
-export const isActionToggleActiveSubcategory = (action: Action): action is ActionToggleActiveSubcategory => (
-	action.type === 'ToggleActiveSubcategory'
+export const isActionToggleHighlightedSubcategory =
+(action: Action): action is ActionToggleHighlightedSubcategory => (
+	action.type === 'ToggleHighlightedSubcategory'
 );
 
-export const toggleActiveSubcategory: ActionCreator<ActionToggleActiveSubcategory> =
-(subcategory: string, active?: boolean) => ({
-	type: 'ToggleActiveSubcategory',
+export const toggleHighlightedSubcategory: ActionCreator<ActionToggleHighlightedSubcategory> =
+(subcategory: string, highlighted?: boolean) => ({
+	type: 'ToggleHighlightedSubcategory',
 	data: {
 		subcategory,
-		active,
+		highlighted,
 	},
 });
 

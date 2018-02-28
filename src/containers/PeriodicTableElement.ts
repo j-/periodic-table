@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
 import PeriodicTableElement from '../components/PeriodicTableElement';
-import { ReducerState, isSubcategoryActive } from '../store';
+import { ReducerState, isSubcategoryHighlighted } from '../store';
 
 interface StateProps {
-	isActive: boolean;
+	isHighlighted: boolean;
 }
 
 interface OwnProps {
@@ -11,7 +11,7 @@ interface OwnProps {
 }
 
 const mapStateToProps = (state: ReducerState, props: OwnProps): StateProps => ({
-	isActive: isSubcategoryActive(state, props.subcategory),
+	isHighlighted: isSubcategoryHighlighted(state, props.subcategory),
 });
 
 export default connect(
